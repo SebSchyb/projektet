@@ -1,6 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 2%;
 }
+
+/* Typografier********* Design************' */
+
 h4 {
   color: black;
   font-family: "cubano", sans-serif;
@@ -11,16 +19,59 @@ h3 {
   color: black;
   font-size: 18px;
   margin-bottom: 10px;
+  font-family: "cubano", sans-serif;
   display: grid;
   place-content: center;
 }
-
-* {
+h2 {
+  z-index: 1;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  padding: 10px;
+  font-family: "cubano", sans-serif;
+  font-style: normal;
+  font-size: 4.1rem;
+  color: #f5e9b5;
+  display: flex;
+  justify-content: center;
+}
+p {
+  font-family: "cubano", sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  word-break: break-all;
+  text-align: justify;
+  color: #f5e9b5;
+}
+/* Box***** */
+
+.games_box {
+  background-color: #036e34;
+  outline: 3.5px solid #000;
+  border-radius: 10px;
+}
+.games_box2 {
+  outline: 2px solid #000;
+  border-radius: 10px;
+
+  margin: 15px 600px 15px 600px;
 }
 
+/* Billeder************************ */
+.img_games {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+  border: 10px groove #036e34;
+  border-radius: 43px;
+}
+
+/* Footer********************* */
 footer {
   background-color: #333;
   color: #fff;
@@ -33,17 +84,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.img_games {
-  display: grid;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding: 2%;
-  position: relative;
-  text-align: center;
-  border: 10px groove #036e34;
-  border-radius: 43px;
-}
+
 @media (min-width: 600px) {
   .grid_1-1-1 {
     display: grid;
