@@ -35,49 +35,54 @@ p {
 img {
   display: block;
   margin: auto;
-  width: 100%;
-  height: 100%;
+  width: 90%;
   object-fit: contain;
   border: 5px solid #555;
   border-radius: 35px;
 }
 
 .headertext {
-  position: relative;
   font-family: "Anton", sans-serif;
-  font-size: 8cqw;
+  font-size: 30px;
   font-weight: bold;
   color: #f6f6f5;
   text-shadow: 2px 2px 4px #000000;
   text-align: center;
   margin: auto;
-  top: -550%;
-  left: -50%;
 }
-@media (min-width: 750px) {
-  .foodgrid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-  }
 
-  .foodtext-box-1_1 {
-    background-color: #f2f2f2;
-    padding: 20px;
-    grid-column: 1;
-    grid-row: 2 / span 3;
-  }
+.foodgrid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
 
-  .foodtext-box-1_2 {
-    background-color: #f2f2f2;
-    padding: 20px;
-    grid-column: 2;
-    grid-row: 2;
-  }
+.foodtext-box-1_1 {
+  background-color: #f2f2f2;
+  padding: 20px;
+  grid-column: 1;
+  grid-row: 3 / span 4;
+}
 
-  .foodimg-box-1_2 {
-    text-align: center;
-    grid-column: 1 / span 2;
-    grid-row: 1;
-  }
+.foodtext-box-1_2 {
+  background-color: #f2f2f2;
+  padding: 20px;
+  grid-column: 2;
+  grid-row: 3;
+}
+
+/* billede og tekst */
+.foodgrid_header {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+  display: grid;
+  place-items: center;
+}
+
+.foodimg-box-1_2 {
+}
+
+.foodimg-box-1_2,
+.headertext {
+  grid-area: 1 / 1;
 }
