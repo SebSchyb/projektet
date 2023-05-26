@@ -16,3 +16,110 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
+/******Billeder*******/
+
+.billedehire {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  position: relative;
+  border: 7px solid #036e34;
+  border-radius: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.kategorilogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.kategorilogoguru {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+/******Tekst*******/
+
+.teksthire {
+  color: #f5e9b5;
+  font-family: "lato", sans-serif;
+  margin-top: 10px;
+  line-height: 25px;
+}
+.teksthire2 {
+  color: #f5e9b5;
+  font-family: "lato", sans-serif;
+  line-height: 25px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  font-weight: bold;
+}
+
+.overskrifthire {
+  color: #f5e9b5;
+  font-family: "cubano", sans-serif;
+}
+
+.kategorihire {
+  color: white;
+  font-family: "cubano", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titlehire {
+  color: #f5e9b5;
+  font-family: "cubano", sans-serif;
+  font-size: 70px;
+  text-align: center;
+}
+
+.undertitlehire {
+  color: #f5e9b5;
+  font-family: "cubano", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+/******Bokse******/
+
+.greenbokshire {
+  background-color: #036e34;
+  border-radius: 35px;
+  border: 3px solid black;
+  max-width: 350px;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.redbokshire {
+  background-color: #b71f32;
+  border-radius: 35px;
+  border: 3px solid black;
+  max-width: 200px;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 250px;
+}
+
+/******Baggrund*****/
+.baggrundbrunhire {
+  background-color: #311e00;
+}
+
+@media (min-width: 750px) {
+}
