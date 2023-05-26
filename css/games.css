@@ -74,7 +74,7 @@ p {
   background-color: #036e34;
   outline: 3.5px solid #000;
   border-radius: 15px;
-  margin: 10px 200px 10px 200px;
+  margin: 0px auto 0px auto;
   width: 35%;
   position: relative;
   text-align: center;
