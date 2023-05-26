@@ -22,6 +22,77 @@ h3 {
   font-size: 18px;
   margin-bottom: 10px;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.text-box-1_1 {
+  background-color: #f2f2f2;
+  padding: 20px;
+  grid-row: 1;
+  grid-column: 1 / span 2;
+
+  background-color: #036e34;
+  border-radius: 15px;
+  outline: 3.5px solid #000;
+}
+
+.text-box-1_2 {
+  background-color: #f2f2f2;
+  padding: 20px;
+  grid-row: 2;
+  grid-column: 1;
+
+  background-color: #036e34;
+  border-radius: 15px;
+  outline: 3.5px solid #000;
+}
+
+.image-box-2_2 {
+  text-align: center;
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+
+.image-box-2_2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-box-3_2 {
+  text-align: center;
+  grid-column: 1 / span 2;
+  grid-row: 6;
+}
+
+.image-box-3_2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-box-2_3 {
+  background-color: #f2f2f2;
+  padding: 20px;
+  grid-column: 1 / span 2;
+  grid-row: 4;
+
+  background-color: #036e34;
+  border-radius: 15px;
+  outline: 3.5px solid #000;
+}
+
+.text-box-3_4 {
+  background-color: #f2f2f2;
+  padding: 20px;
+  grid-column: 1;
+  grid-row: 5;
+
+  background-color: #036e34;
+  border-radius: 15px;
+  outline: 3.5px solid #000;
+}
 
 @media (min-width: 750px) {
   .grid-container {
@@ -31,13 +102,22 @@ h3 {
   }
 
   .text-box-1_1 {
-    background-color: #f2f2f2;
     padding: 20px;
+    grid-column: 1;
+
+    background-color: #036e34;
+    border-radius: 15px;
+    outline: 3.5px solid #000;
   }
 
   .text-box-1_2 {
     background-color: #f2f2f2;
     padding: 20px;
+    grid-column: 1;
+
+    background-color: #036e34;
+    border-radius: 15px;
+    outline: 3.5px solid #000;
   }
 
   .image-box-2_2 {
@@ -52,7 +132,8 @@ h3 {
   }
 
   .image-box-3_2 {
-    grid-row: 3 / span 4;
+    grid-row: 4 / span 4;
+    grid-column: 1;
   }
 
   .image-box-3_2 img {
@@ -63,10 +144,20 @@ h3 {
   .text-box-2_3 {
     background-color: #f2f2f2;
     padding: 20px;
+    grid-column: 2;
+
+    background-color: #036e34;
+    border-radius: 15px;
+    outline: 3.5px solid #000;
   }
 
   .text-box-3_4 {
     background-color: #f2f2f2;
     padding: 20px;
+    grid-column: 2;
+
+    background-color: #036e34;
+    border-radius: 15px;
+    outline: 3.5px solid #000;
   }
 }

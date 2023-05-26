@@ -5,7 +5,7 @@
 }
 
 main {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   container-type: inline-size;
 }
@@ -14,6 +14,7 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 20px 0;
+  margin-top: 15px;
 }
 
 .footer-container {
@@ -35,7 +36,7 @@ p {
 img {
   display: block;
   margin: auto;
-  width: 90%;
+  width: 100%;
   object-fit: contain;
   border: 5px solid #555;
   border-radius: 35px;
@@ -43,7 +44,7 @@ img {
 
 .headertext {
   font-family: "Anton", sans-serif;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   color: #f6f6f5;
   text-shadow: 2px 2px 4px #000000;
@@ -58,17 +59,23 @@ img {
 }
 
 .foodtext-box-1_1 {
-  background-color: #f2f2f2;
-  padding: 20px;
-  grid-column: 1;
+  padding: 10px;
+  grid-column: 1 / span 2;
   grid-row: 3 / span 4;
+
+  background-color: #036e34;
+  border-radius: 15px;
+  outline: 3.5px solid #000;
 }
 
 .foodtext-box-1_2 {
-  background-color: #f2f2f2;
-  padding: 20px;
-  grid-column: 2;
-  grid-row: 3;
+  padding: 10px;
+  grid-column: 1;
+  grid-row: 7;
+
+  background-color: #036e34;
+  border-radius: 15px;
+  outline: 3.5px solid #000;
 }
 
 /* billede og tekst */
@@ -85,4 +92,41 @@ img {
 .foodimg-box-1_2,
 .headertext {
   grid-area: 1 / 1;
+}
+
+@media (min-width: 750px) {
+  .foodgrid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .foodtext-box-1_1 {
+    padding: 20px;
+    grid-column: 1;
+    grid-row: 3 / span 4;
+
+    background-color: #036e34;
+    border-radius: 15px;
+    outline: 3.5px solid #000;
+  }
+
+  .foodtext-box-1_2 {
+    padding: 20px;
+    grid-column: 2;
+    grid-row: 3;
+
+    background-color: #036e34;
+    border-radius: 15px;
+    outline: 3.5px solid #000;
+  }
+
+  .headertext {
+    font-family: "Anton", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: #f6f6f5;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    margin: auto;
+  }
 }
