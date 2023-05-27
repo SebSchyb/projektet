@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/forside.css">
+    <link rel="stylesheet" href="css/kalender.css">
     <title>Forside</title>
 </head>
 
@@ -32,39 +33,99 @@
     <main>
         <video src="video/introvideo_bastardcafe.mp4" autoplay muted loop></video>
         <section class="grid_1-1">
-            <div class="kortgrid">
-                <h2>Book a table</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus tempora, beatae sapiente
-                    voluptatem minus quia blanditiis veniam accusantium omnis eum eius incidunt quas at doloremque harum
-                    facere distinctio iusto nam.</p>
-                <h2 class="knap">View Reservations</h2>
+            <div class="kalender order">
+                <div class="month">
+                    <ul>
+                        <li class="prev">&#10094;</li>
+                        <li class="next">&#10095;</li>
+                        <li>
+                            June<br>
+                            <span>2023</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="weekdays">
+                    <li>Mo</li>
+                    <li>Tu</li>
+                    <li>We</li>
+                    <li>Th</li>
+                    <li>Fr</li>
+                    <li>Sa</li>
+                    <li>Su</li>
+                </ul>
+
+                <ul class="days">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li>28</li>
+                    <li>29</li>
+                    <li>30</li>
+                </ul>
             </div>
-            <div>
-                kalender
+            <div class="kortgrid">
+                <div class="box">
+                    <h2>Book a table</h2>
+                    <p>We always welcome walk-ins and only half of our actual seats are bookable. If you want to make
+                        sure that you are guaranteed a table then you can book a table here! <br><br> For more
+                        information go to the reservation page</p>
+                </div>
+                <a href="reservations.html" class="knap box">View Reservations</a>
+
             </div>
         </section>
         <section class="grid_2-1">
             <div>
-                billede
+                <img src="billeder/forsidebilleder/spil.webp" alt="spil" class="forsideimg">
             </div>
             <div class="kortgrid">
-                <h2>Our Games</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis necessitatibus laboriosam a
-                    dolore quaerat dolorem illo quo. Autem illum eveniet libero. Iure perspiciatis tempore fugiat ad
-                    iusto! Necessitatibus, nemo eligendi!</p>
-                <h2 class="knap">View games</h2>
+                <div class="box">
+                    <h2>Our Games</h2>
+                    <p>We have a collection of more than 5000 titles! That's crazy <br><br> See our big collection here
+                    </p>
+                </div>
+                <a href="games.html" class="knap box">View games</a>
             </div>
         </section>
         <section class="grid_1-2">
-            <div class="kortgrid">
-                <h2>Food &amp; Drinks</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed culpa rerum, maiores consectetur
-                    adipisci dolores illum porro inventore alias nisi error nemo ducimus debitis mollitia nesciunt velit
-                    excepturi! Totam!</p>
-                <h2 class="knap">View menu</h2>
+            <div class="order">
+                <img src="billeder/forsidebilleder/kaffe.webp" alt="food" class="forsideimg">
             </div>
-            <div>
-                billede
+            <div class="kortgrid">
+                <div class="box">
+                    <h2>Food &amp; Drinks</h2>
+                    <p>At Bastard Café we offer a variety of food and drinks. <br><br> See our whole menu here!</p>
+                </div>
+                <a href="food.html" class="knap box">View menu</a>
+
             </div>
         </section>
     </main>

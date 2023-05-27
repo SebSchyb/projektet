@@ -1,0 +1,96 @@
+ul {
+  list-style-type: none;
+}
+
+.month {
+  padding: 10px;
+  width: 100%;
+  background: #036e34;
+  text-align: center;
+  border-top-left-radius: 15px 15px;
+  border-top-right-radius: 15px 15px;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  font-family: "cubano", sans-serif;
+  font-style: normal;
+  font-size: 2rem;
+  color: #f5e9b5;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 12px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 12px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #036e33f2;
+}
+
+.weekdays li {
+  font-family: "cubano", sans-serif;
+  font-size: larger;
+  display: inline-block;
+  width: 13.6%;
+  color: #f5e9b5;
+  text-align: center;
+}
+
+.days {
+  padding: 41px 0;
+  margin: 0;
+  background-color: white;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 30px;
+  color: #311e00;
+}
+
+.days li:hover {
+  padding: 5px;
+  background: #036e33f2;
+  color: #f5e9b5 !important;
+}
+
+/* Add media queries for smaller screens */
+@media (min-width: 600px) {
+  .weekdays li,
+  .days li {
+    width: 13.1%;
+  }
+}
+@media (max-width: 420px) {
+  .weekdays li,
+  .days li {
+    width: 12.5%;
+  }
+
+  .days li:hover {
+    padding: 2px;
+  }
+}
+@media (max-width: 290px) {
+  .weekdays li,
+  .days li {
+    width: 12.2%;
+  }
+}
