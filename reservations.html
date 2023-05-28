@@ -8,7 +8,11 @@
     <meta name="robots" content="noindex">
     <link rel="stylesheet" href="css/reservations.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="https://use.typekit.net/avk2pyp.css">
+    <link rel="stylesheet" href="css/reservations.css">
+    <link rel="stylesheet" href="css/forside.css">
+
     <title>Reservations</title>
 </head>
 
@@ -28,6 +32,92 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <h1 class="box" id="res_h1">Reservations</h1>
+        <section class="grid_1-2-1">
+            <img src="billeder/reservationsbilleder/bc_logo.svg" alt="logo" class="reservationslogo">
+            <div class="box reservations">
+                <h2>About reservations</h2>
+                <p id="ar">
+                    If you would like to guarantee a table then you can book a table here down at the bottom of the
+                    page.
+                    <br><br>
+                    The booking lasts for 3 hours, please notice that if you show up late without informing the staff
+                    that you are late, the table is most likely taken by someone else. <br><br>
+                    Bookings come with free gaming and one free drink for each guest. <br>
+                    A free drink is either a cup of tea or coffee, a bottle beer (Carlsberg or Tuborg Classic), a bottle
+                    of soda or lemonade, a muffin, or a cookie.
+                </p>
+            </div>
+            <img src="billeder/reservationsbilleder/bc_logo.svg" alt="logo" class="reservationslogo">
+        </section>
+        <section class="grid_1-1">
+            <div class="box">
+                <h2>Prices</h2>
+                <p>
+                    75 DKK per adult <br><br>
+                    30 DKK per child (from 12 years or younger) <br><br>
+                    Membership: <br> You get 40% discount if you have an active membership on the entire booking fee.
+                    <br> <br>
+                    The membership fee is 150 DKK and covers one year. For a renewel of your membership before it
+                    expires, it only costs 125kr. <br><br>
+                    Buy the membership <a href="shop.html">here</a>
+                </p>
+                <h2 id="guru">Guru prices</h2>
+                <p>
+                    550 DKK per guru per hour (min. 1 hour) <br><br>
+                    330 DKK per guru per hour (membership price)
+                </p>
+            </div>
+            <form class="box">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="date">Date:</label>
+                <input type="datetime-local" id="date" name="date" required>
+
+                <label for="quantity">Number of people:</label>
+                <input type="number" id="quantity" name="quantity" min="2" max="30">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Bastard Café
+                    Huset KBH </p>
+                <p> Rådhusstræde 13
+                    1466 København</p>
+                <p>Phone: +45 42 74 66 42</p>
+                <p>E-Mail: contact@bastardcafe.dk</p>
+            </div>
+            <div>
+                <h3>Opening Hours</h3>
+                <p>Monday - Thursday: 12.00 - 00.00 </p>
+                <p>Friday: 12.00 - 02.00 </p>
+                <p> Saturday: 10.00 - 02.00 </p>
+                <p> Sunday: 10.00 - 00.00</p>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

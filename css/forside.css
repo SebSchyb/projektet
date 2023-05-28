@@ -1,7 +1,7 @@
 html {
   background-image: url(../billeder/spilbrætbaggrund.svg);
   background-repeat: repeat-y;
-  background-size: auto;
+  background-size: 100%;
 }
 h2,
 .knap {
@@ -11,11 +11,17 @@ h2,
   color: #f5e9b5;
   text-align: center;
 }
+#guru {
+  margin-top: -15%;
+}
 p {
   font-family: lato, serif;
   font-size: larger;
   text-align: center;
   padding: 5% 0 20% 0;
+}
+#ar {
+  text-align: left;
 }
 video {
   display: grid;
@@ -24,11 +30,21 @@ video {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 3%;
+  margin-top: -10%;
 }
 .forsideimg {
   border-radius: 15px;
   outline: 3.5px solid #000;
   margin-bottom: 6%;
+}
+.reservationslogo {
+  text-align: center;
+}
+#reserve-a-table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
 }
 .kalender {
   border-radius: 15px;
@@ -45,10 +61,7 @@ video {
   border-radius: 15px;
   outline: 3.5px solid #000;
   padding: 20px;
-}
-.order {
-  display: grid;
-  order: 0;
+  margin-top: 3%;
 }
 main {
   display: grid;
@@ -56,16 +69,12 @@ main {
   margin: 10%;
 }
 @media (min-width: 800px) {
-  html {
-    background-size: contain;
-  }
   main {
     margin: 5%;
   }
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
-    margin: 3% 0 6% 0;
     gap: 2%;
   }
   .grid_1-2 {
@@ -77,10 +86,25 @@ main {
     display: grid;
     grid-template-columns: 1.8fr 1.5fr;
     gap: 2%;
-    margin-bottom: 6%;
   }
   .order {
     display: grid;
     order: 1;
+  }
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1.5fr;
+    justify-content: center;
+    margin: 3% 30% 6% 30%;
+  }
+  .grid_1-2-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 2%;
+  }
+  .reservationslogo {
+    display: block;
+    width: 100%;
+    margin-top: 25%;
   }
 }
