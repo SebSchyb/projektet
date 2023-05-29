@@ -19,7 +19,7 @@ ul {
 .month ul li {
   font-family: "cubano", sans-serif;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 1rem;
   color: #f5e9b5;
   letter-spacing: 3px;
 }
@@ -44,9 +44,9 @@ ul {
   font-family: "cubano", sans-serif;
   font-size: larger;
   display: inline-block;
-  width: 13.6%;
+  width: 11.6%;
   color: #f5e9b5;
-  text-align: center;
+  text-align: right;
 }
 
 .days {
@@ -59,9 +59,8 @@ ul {
   list-style-type: none;
   display: inline-block;
   width: 13.6%;
-  text-align: center;
+  text-align: right;
   margin-bottom: 5px;
-  font-size: 30px;
   color: #311e00;
 }
 
@@ -72,10 +71,18 @@ ul {
 }
 
 /* Add media queries for smaller screens */
-@media (min-width: 600px) {
-  .weekdays li,
+@media (min-width: 800px) {
+  .weekdays li {
+    width: 13.3%;
+  }
   .days li {
-    width: 13.1%;
+    width: 13%;
+  }
+  .days {
+    font-size: 30px;
+  }
+  .month ul li {
+    font-size: 2rem;
   }
 }
 @media (max-width: 420px) {

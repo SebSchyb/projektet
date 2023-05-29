@@ -29,17 +29,20 @@ video {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  border-radius: 10px;
   margin-bottom: 3%;
   margin-top: -10%;
+  border-radius: 15px;
+  outline: 3.5px solid #000;
 }
 .forsideimg {
   border-radius: 15px;
   outline: 3.5px solid #000;
   margin-bottom: 6%;
+  width: 100%;
 }
 .reservationslogo {
-  text-align: center;
+  display: block;
+  margin: 4% auto;
 }
 #reserve-a-table {
   width: 90%;
@@ -65,12 +68,17 @@ video {
   margin-top: 3%;
 }
 main {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 10%;
+  margin: 4%;
+}
+@media (max-width: 800px) {
+  #remove {
+    display: none;
+  }
 }
 @media (min-width: 800px) {
   main {
+    display: grid;
+    grid-template-columns: 1fr;
     margin: 5%;
   }
   .grid_1-1 {
