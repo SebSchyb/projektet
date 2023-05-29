@@ -60,7 +60,7 @@ p {
   font-family: "lato", sans-serif;
 }
 
-img {
+.foodimg-box-1_2 a img {
   display: block;
   margin: auto;
   width: 100%;
