@@ -1,0 +1,7 @@
+.foodimg-box-1_2 a img {
+  transition: transform 0.2s ease;
+}
+
+.foodimg-box-1_2 a:hover img {
+  transform: scale(0.98);
+}

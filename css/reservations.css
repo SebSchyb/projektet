@@ -32,5 +32,13 @@ button:hover {
   background-color: #311e00;
 }
 #res_h1 {
-  margin-top: -10%;
+  font-family: "cubano", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f5e9b5;
+  display: flex;
+  justify-content: center;
+  container-type: inline-size;
+  font-size: 8cqw;
+  padding-top: 10px;
 }

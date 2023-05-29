@@ -2,14 +2,16 @@ html {
   background-image: url(../billeder/spilbrætbaggrund.svg);
   background-repeat: repeat-y;
   background-size: 100%;
+  container-type: inline-size;
 }
 h2,
 .knap {
   font-family: "cubano", sans-serif;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 4.5cqw;
   color: #f5e9b5;
   text-align: center;
+  text-decoration: none;
 }
 #guru {
   margin-top: -15%;
@@ -17,7 +19,7 @@ h2,
 p {
   font-family: lato, serif;
   color: #f5e9b5;
-  font-size: larger;
+  font-size: 3cqw;
   text-align: center;
   padding: 5% 0 20% 0;
 }
@@ -29,17 +31,19 @@ video {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  border-radius: 10px;
   margin-bottom: 3%;
-  margin-top: -10%;
+  border-radius: 15px;
+  outline: 3.5px solid #000;
 }
 .forsideimg {
   border-radius: 15px;
   outline: 3.5px solid #000;
   margin-bottom: 6%;
+  width: 100%;
 }
 .reservationslogo {
-  text-align: center;
+  display: block;
+  margin: 4% auto;
 }
 #reserve-a-table {
   width: 90%;
@@ -61,16 +65,24 @@ video {
   background-color: #036e34;
   border-radius: 15px;
   outline: 3.5px solid #000;
-  padding: 20px;
-  margin-top: 3%;
+  padding: 20px 20px 8px 20px;
+  margin-top: 2%;
 }
 main {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 10%;
+  margin: 4%;
+}
+@media (max-width: 800px) {
+  #remove {
+    display: none;
+  }
+  .box {
+    margin-top: 5%;
+  }
 }
 @media (min-width: 800px) {
   main {
+    display: grid;
+    grid-template-columns: 1fr;
     margin: 5%;
   }
   .grid_1-1 {
@@ -107,5 +119,16 @@ main {
     display: block;
     width: 100%;
     margin-top: 25%;
+  }
+  h2,
+  .knap {
+    font-size: 2rem;
+  }
+  p {
+    font-size: larger;
+  }
+  #res_h1,
+  video {
+    margin-top: -10%;
   }
 }
