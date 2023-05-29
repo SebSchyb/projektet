@@ -15,8 +15,11 @@
 <body>
     <header class="navimg">
         <a href="index.html"><img src="billeder/indexknap.svg" alt="indexknap" class="indexknap1"></a>
+
         <h1><a href="index.html">bastard café</a></h1>
-        <nav class="menu">
+        <div class="menu-toggle" onclick="toggleMenu()"></div>
+
+        <nav class="menu navigation">
             <ul>
                 <li><a href="about.html">About</a></li>
                 <li><a href="events.html">Events</a></li>
@@ -42,10 +45,11 @@
                 </div>
             </div>
             <div class="foodtext-box-1_1">
-                <h2>FOOD &amp; DRINKS</h2> From our cheese nachos with jalapeños &amp; dip, Cthulhu Rings and Nuggets
-                (no
-                meat - just crispy), to The Meaty Mightball.
-                Whether you're vegetarian, vegan or gluten free, we've got something for everybody.
+                <h2>FOOD &amp; DRINKS</h2>
+                <p>From our cheese nachos with jalapeños &amp; dip, Cthulhu Rings and Nuggets
+                    (no
+                    meat - just crispy), to The Meaty Mightball. Whether you're vegetarian, vegan or gluten free, we've
+                    got something for everybody.</p>
             </div>
             <div class="foodtext-box-1_2">
                 <a href="links/menupdf.pdf" target="_blank">View our food &amp; drinks menu</a>
@@ -57,23 +61,23 @@
         <div class="footer-container">
             <div class="footer-content">
                 <h3>About Us</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="footer-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
             </div>
             <div class="footer-content">
                 <h3>Contact Us</h3>
-                <p>Bastard Café
-                    Huset KBH </p>
-                <p> Rådhusstræde 13
-                    1466 København</p>
-                <p>Phone: +45 42 74 66 42</p>
-                <p>E-Mail: contact@bastardcafe.dk</p>
+                <div class="footer-text"> Bastard Café
+                    Huset KBH </div>
+                <div class="footer-text"> Rådhusstræde 13
+                    1466 København</div>
+                <div class="footer-text"> Phone: +45 42 74 66 42</div>
+                <div class="footer-text"> E-Mail: contact@bastardcafe.dk</div>
             </div>
             <div>
                 <h3>Opening Hours</h3>
-                <p>Monday - Thursday: 12.00 - 00.00 </p>
-                <p>Friday: 12.00 - 02.00 </p>
-                <p> Saturday: 10.00 - 02.00 </p>
-                <p> Sunday: 10.00 - 00.00</p>
+                <div class="footer-text"> Monday - Thursday: 12.00 - 00.00 </div>
+                <div class="footer-text"> Friday: 12.00 - 02.00 </div>
+                <div class="footer-text"> Saturday: 10.00 - 02.00 </div>
+                <div class="footer-text"> Sunday: 10.00 - 00.00</div>
             </div>
             <div class="footer-content">
                 <h3>Follow Us</h3>
@@ -82,6 +86,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
