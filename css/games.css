@@ -11,7 +11,6 @@ html {
 body {
   margin: 2%;
 }
-
 /* Typografier********* Design************' */
 
 h4 {
@@ -80,15 +79,13 @@ p {
   outline: 3.5px solid #000;
   border-radius: 15px;
   margin: 0px auto 0px auto;
-  width: 35%;
+  /*width: 35%;*/
   position: relative;
   text-align: center;
 }
 .games_box2 {
   outline: 2px solid #000;
   border-radius: 10px;
-
-  margin: 30px 600px 30px 600px;
 }
 
 /* Billeder************************ */
@@ -109,6 +106,12 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0% 20% 20% 20%;
     gap: 3%;
+  }
+  .games_box {
+    width: 35%;
+  }
+  .games_box2 {
+    margin: 30px 600px;
   }
 }
 footer {
