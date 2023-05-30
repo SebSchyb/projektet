@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+main {
+  max-width: 1400px;
+}
+
+/******Baggrunde osv*****/
+.baggrundbrunhire {
+  background-color: #311e00;
+}
 
 html {
   background-image: url(../billeder/spilbrætbaggrund.svg);
@@ -193,11 +201,6 @@ p {
   }
 }
 
-/******Baggrund*****/
-.baggrundbrunhire {
-  background-color: #311e00;
-}
-
 /******Computer udgave*******/
 
 @media (min-width: 750px) {
@@ -232,6 +235,7 @@ p {
   }
   .billedehireright {
     width: 43%;
+    max-width: 540px;
     position: relative;
     border: 7px solid #036e34;
     border-radius: 35px;
@@ -243,6 +247,7 @@ p {
 
   .billedehireleft {
     width: 43%;
+    max-width: 540px;
     position: relative;
     border: 7px solid #036e34;
     border-radius: 35px;
@@ -288,7 +293,7 @@ p {
     border-radius: 35px;
     border: 3px solid black;
     max-width: 200px;
-    padding: 20px;
+    padding: 15px;
     height: 250px;
   }
   .flexhire {
@@ -334,3 +339,33 @@ p {
 }
 
 /******Symboler*******/
+.brikhire {
+  width: 5%;
+  transform: rotate(20deg);
+  translate: 1100px -888px;
+}
+.korthire {
+  width: 5%;
+  transform: rotate(-20deg);
+  translate: 522px -470px;
+}
+.mandhire {
+  width: 6%;
+  transform: rotate(-10deg);
+  translate: 474px -1327px;
+}
+.puslespil {
+  width: 6%;
+  transform: rotate(0deg);
+  translate: -120px -1730px;
+}
+.terninghire {
+  width: 5%;
+  transform: rotate(20deg);
+  translate: 290px -2130px;
+}
+.towerhire {
+  width: 5%;
+  transform: rotate(10deg);
+  translate: 750px -130px;
+}
