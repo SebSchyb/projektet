@@ -226,3 +226,47 @@ p {
     grid-row: 1;
   }
 }
+
+/******Symboler*******/
+.brikfood {
+  width: 5%;
+  transform: rotate(20deg);
+  position: relative;
+  top: -35px;
+  left: 300px;
+}
+.kortfood {
+  width: 5%;
+  transform: rotate(-20deg);
+  position: relative;
+  top: -220px;
+  left: -90px;
+}
+.mandfood {
+  width: 6%;
+  transform: rotate(-10deg);
+  position: relative;
+  top: -1050px;
+  left: 1000px;
+}
+.puslespilfood {
+  width: 6%;
+  transform: rotate(0deg);
+  position: relative;
+  top: -1035px;
+  left: 200px;
+}
+.terningfood {
+  width: 5%;
+  transform: rotate(20deg);
+  position: relative;
+  top: -235px;
+  left: 590px;
+}
+.towerfood {
+  width: 5%;
+  transform: rotate(10deg);
+  position: relative;
+  top: -125px;
+  left: 790px;
+}

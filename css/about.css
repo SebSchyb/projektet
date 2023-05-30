@@ -276,3 +276,47 @@ p {
     grid-row: 1;
   }
 }
+
+/******Symboler*******/
+.brikabout {
+  width: 5%;
+  transform: rotate(20deg);
+  position: relative;
+  top: -35px;
+  left: 300px;
+}
+.kortabout {
+  width: 5%;
+  transform: rotate(-20deg);
+  position: relative;
+  top: -220px;
+  left: -90px;
+}
+.mandabout {
+  width: 6%;
+  transform: rotate(-10deg);
+  position: relative;
+  top: -1270px;
+  left: 400px;
+}
+.puslespilabout {
+  width: 6%;
+  transform: rotate(0deg);
+  position: relative;
+  top: -1035px;
+  left: 200px;
+}
+.terningabout {
+  width: 5%;
+  transform: rotate(20deg);
+  position: relative;
+  top: -1275px;
+  left: 590px;
+}
+.towerabout {
+  width: 5%;
+  transform: rotate(10deg);
+  position: relative;
+  top: -425px;
+  left: 790px;
+}

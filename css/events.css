@@ -308,3 +308,47 @@ p {
     grid-row: 1;
   }
 }
+
+/******Symboler*******/
+.brikevent {
+  width: 5%;
+  transform: rotate(20deg);
+  position: relative;
+  top: -55px;
+  left: 1px;
+}
+.kortevent {
+  width: 5%;
+  transform: rotate(-20deg);
+  position: relative;
+  top: -220px;
+  left: 1090px;
+}
+.mandevent {
+  width: 6%;
+  transform: rotate(-10deg);
+  position: relative;
+  top: -1270px;
+  left: 400px;
+}
+.puslespilevent {
+  width: 6%;
+  transform: rotate(0deg);
+  position: relative;
+  top: -1035px;
+  left: 200px;
+}
+.terningevent {
+  width: 5%;
+  transform: rotate(20deg);
+  position: relative;
+  top: -1275px;
+  left: 590px;
+}
+.towerevent {
+  width: 5%;
+  transform: rotate(10deg);
+  position: relative;
+  top: -725px;
+  left: 790px;
+}
