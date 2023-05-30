@@ -99,6 +99,9 @@ p {
 .image-box-2_2 img {
   max-width: 100%;
   height: auto;
+
+  outline: 3.5px solid #000;
+  border-radius: 15px;
 }
 
 .image-box-3_2 {
@@ -110,6 +113,9 @@ p {
 .image-box-3_2 img {
   max-width: 100%;
   height: auto;
+
+  outline: 3.5px solid #000;
+  border-radius: 15px;
 }
 
 .text-box-2_3 {
@@ -160,6 +166,7 @@ p {
     font-family: "cubano", sans-serif;
     padding: 20px;
     grid-column: 1;
+    grid-row: 2;
 
     border-radius: 15px;
     outline: 3.5px solid #000;
@@ -168,12 +175,15 @@ p {
   .image-box-2_2 {
     text-align: center;
     grid-column: 2;
-    grid-row: 1 / span 2;
+    grid-row: 1 / span 3;
   }
 
   .image-box-2_2 img {
     max-width: 100%;
     height: auto;
+
+    outline: 3.5px solid #000;
+    border-radius: 15px;
   }
 
   .image-box-3_2 {
@@ -184,6 +194,9 @@ p {
   .image-box-3_2 img {
     max-width: 100%;
     height: auto;
+
+    outline: 3.5px solid #000;
+    border-radius: 15px;
   }
 
   .text-box-2_3 {
