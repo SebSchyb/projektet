@@ -224,3 +224,36 @@ h3 {
     grid-row: 1;
   }
 }
+
+/******Symboler*******/
+.brikindex {
+  width: 5%;
+  transform: rotate(-10deg);
+  translate: 20px -148px;
+}
+.kortindex {
+  width: 5%;
+  transform: rotate(-20deg);
+  translate: 522px -470px;
+}
+.mandindex {
+  width: 6%;
+  transform: rotate(-10deg);
+  translate: 524px -1397px;
+}
+.puslespilindex {
+  width: 6%;
+  position: relative;
+  transform: rotate(0deg);
+  translate: -230px -1080px;
+}
+.terningindex {
+  width: 5%;
+  transform: rotate(20deg);
+  translate: 590px -930px;
+}
+.towerindex {
+  width: 5%;
+  transform: rotate(10deg);
+  translate: 760px -2030px;
+}
