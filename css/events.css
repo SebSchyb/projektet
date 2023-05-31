@@ -263,7 +263,7 @@ p {
   }
   /* billeder */
   .fb-img-2_1 {
-    padding: 20px;
+    padding: 20px 100px;
     border-radius: 15px;
 
     grid-column: 2;
