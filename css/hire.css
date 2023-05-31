@@ -356,6 +356,7 @@ p {
 }
 .puslespil {
   width: 6%;
+  position: relative;
   transform: rotate(0deg);
   translate: -120px -1730px;
 }
@@ -368,4 +369,28 @@ p {
   width: 5%;
   transform: rotate(10deg);
   translate: 750px -130px;
+}
+
+@media (max-width: 750px) {
+  .flip-card-back {
+    display: none;
+  }
+  .brikhire {
+    display: none;
+  }
+  .korthire {
+    display: none;
+  }
+  .mandhire {
+    display: none;
+  }
+  .puslespil {
+    display: none;
+  }
+  .terninghire {
+    display: none;
+  }
+  .towerhire {
+    display: none;
+  }
 }

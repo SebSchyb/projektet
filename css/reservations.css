@@ -42,3 +42,38 @@ button:hover {
   font-size: 8cqw;
   padding-top: 10px;
 }
+
+/******Symboler*******/
+.brikres {
+  width: 5%;
+  transform: rotate(10deg);
+  translate: 1066px -58px;
+}
+.kortres {
+  width: 5%;
+  transform: rotate(-20deg);
+  translate: -98px -270px;
+}
+.mandres {
+  width: 6%;
+  transform: rotate(10deg);
+  translate: 914px -696px;
+}
+.puslespilres {
+  width: 6%;
+  position: relative;
+  transform: rotate(30deg);
+  translate: 70px -770px;
+}
+.terningres {
+  width: 5%;
+  transform: rotate(20deg);
+  translate: 560px -1120px;
+}
+.towerres {
+  width: 5%;
+  transform: rotate(-30deg);
+  translate: -210px -1340px;
+  position: relative;
+  z-index: 1000;
+}

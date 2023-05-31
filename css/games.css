@@ -96,7 +96,7 @@ p {
   width: 100%;
   position: relative;
   text-align: center;
-  border: 7px solid #b71f32;
+  border: 7px solid #036e34;
   border-radius: 43px;
 }
 
@@ -211,4 +211,36 @@ p {
     grid-column: 3;
     grid-row: 1;
   }
+}
+/******Symboler*******/
+.brikgame {
+  width: 5%;
+  transform: rotate(10deg);
+  translate: 996px -888px;
+}
+.kortgame {
+  width: 5%;
+  transform: rotate(-20deg);
+  translate: 152px -470px;
+}
+.mandgame {
+  width: 6%;
+  transform: rotate(-10deg);
+  translate: 84px -1287px;
+}
+.puslespilgame {
+  width: 6%;
+  position: relative;
+  transform: rotate(0deg);
+  translate: 160px -1730px;
+}
+.terninggame {
+  width: 5%;
+  transform: rotate(20deg);
+  translate: 670px -1480px;
+}
+.towergame {
+  width: 5%;
+  transform: rotate(10deg);
+  translate: 630px -330px;
 }
