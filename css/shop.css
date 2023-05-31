@@ -12,6 +12,76 @@ img {
   display: block;
 }
 
+/* FOOTER */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 15px;
+}
+
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+  justify-content: space-between;
+  display: grid;
+}
+
+h3 {
+  font-family: "cubano", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  font-family: "lato", sans-serif;
+}
+
+.footer-text {
+  font-size: 14px;
+  font-family: "lato", sans-serif;
+}
+
+.social-links {
+  font-size: 14px;
+  font-family: "lato", sans-serif;
+}
+
+/* footer grid */
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.footer-img {
+  width: 100%;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.footer-content {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.footer-content2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.footer-content3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
 body,
 html {
   height: 100%;
@@ -23,13 +93,20 @@ html {
 p {
   font-family: "lato";
 }
+.div1 {
+  background-color: #036e34;
+  border-radius: 35px;
+  border: 3px solid black;
+  max-width: 400px;
+  padding: 15px;
+}
 .div1 h2 {
   font-family: "cubano", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 3.5rem;
   padding: 5px;
-  color: #954500;
+  color: #f5e9b5;
 }
 .div1 p {
   font-family: lato;
@@ -37,7 +114,7 @@ p {
   font-style: normal;
   font-size: 1.2rem;
   padding: 5px;
-  color: #954500;
+  color: #f5e9b5;
 }
 .div2 h2 {
   font-family: lato;
@@ -112,6 +189,34 @@ h4 {
   }
   .div12 {
     grid-area: 4 / 1 / 5 / 2;
+  }
+
+  /* footer grid */
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+
+  .footer-img {
+    width: 100%;
+    grid-column: 4;
+    grid-row: 1;
+  }
+
+  .footer-content {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .footer-content2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .footer-content3 {
+    grid-column: 3;
+    grid-row: 1;
   }
 }
 
